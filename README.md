@@ -1,6 +1,17 @@
-제목 서식
 # 깃 튜토리얼
 
+글 헤더
+
+This is header H1
+=
+This is header H2
+-
+# This is header H1
+## This is header H2
+### This is header H3
+#### This is header H4
+##### This is header H5
+###### This is header H6
 
 ## 코드 작성 
 ```c
@@ -19,6 +30,11 @@ int main(void){
     + 순서 필요 없는 곳
     - 순서 필요 없는 곳
     * 순서 필요 없는 곳
+
+* 순서 필요 없는 곳
+  * 순서 필요 없는 곳
+    * 순서 필요 없는 곳
+
 1. 순서표시 하기
     1. 순서 표시하기
 
@@ -26,10 +42,8 @@ int main(void){
 ## 강조
 
 *강조하기* _이텔릭체_~~취소선~~
-
-**강조하기**
-
-***강조하기***
+<br>**강조하기**
+<br>***강조하기***
 
 
 ## 링크
@@ -69,5 +83,4 @@ int main(void){
 ___
 
 ## 줄바꿈
-
 줄<br>바꿈
